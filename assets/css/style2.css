@@ -1,0 +1,52 @@
+#about_adoptapet {
+  background-image: url(../logo/cat1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.hero_text {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 300px;
+  color: black;
+}
+
+.Why {
+  background-color: greenyellow;
+  font-size: 40px;
+  margin-top: 50px;
+}
+/* Custom CSS for Navbar */
+.navbar {
+  padding: 20px 0;
+}
+
+/* Custom CSS for Hero Section */
+#hero-section {
+  background-image: url('./assets/images/hero-background.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+}
+
+/* Custom CSS for Why Choose Section */
+#why-choose-section {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.custom-card {
+  height: 100%;
+}
